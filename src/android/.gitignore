@@ -1,0 +1,89 @@
+# ============================================================
+# Android / Gradle (Gerado por ChatGPT)
+# ============================================================
+
+# Gradle cache
+**/.gradle/
+
+# Build directories
+**/build/
+
+# Kotlin cache
+**/.kotlin/
+
+# Android Native Build
+**/.cxx/
+**/.externalNativeBuild/
+
+# APK / AAB generated files
+**/*.apk
+**/*.aab
+
+# Android profiling / capture files
+**/captures/
+
+
+# ============================================================
+# Android Studio / IntelliJ IDEA
+# ============================================================
+
+# IDE configuration
+**/.idea/
+
+# IntelliJ module files
+**/*.iml
+
+# IDE generated files
+**/.navigation/
+
+# Android Studio output
+**/out/
+
+
+# ============================================================
+# Local machine configuration
+# ============================================================
+
+# Android SDK path
+**/local.properties
+
+
+# ============================================================
+# Signing / Credentials
+# ============================================================
+
+# Keystores
+**/*.jks
+**/*.keystore
+
+# Signing configuration
+**/keystore.properties
+
+# Environment variables / secrets
+**/.env
+**/.env.*
+
+
+# ============================================================
+# Logs / temporary files
+# ============================================================
+
+**/*.log
+**/*.tmp
+**/*.temp
+
+
+# ============================================================
+# Operating system
+# ============================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+.Trash-*
