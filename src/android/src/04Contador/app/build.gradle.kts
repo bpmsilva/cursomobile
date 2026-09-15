@@ -9,7 +9,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.simpleclicktoast"
+        applicationId = "com.example.contador"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
