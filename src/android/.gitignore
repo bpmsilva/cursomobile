@@ -63,6 +63,9 @@
 **/.env
 **/.env.*
 
+# Exemplos de configuração podem ser versionados
+!**/.env.example
+!**/.env.template
 
 # ============================================================
 # Logs / temporary files
