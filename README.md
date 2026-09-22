@@ -2,13 +2,13 @@
 
 - [x] Criar GitHub da Disciplina de Programação para Dispositivos Móveis;
 - [x] Introdução à disciplina;
-- [ ] Por que desenvolvimento Mobile?; 
+- [ ] Por que desenvolvimento Mobile?;
 - [ ] Mostrar e testar o Android Studio;
 - [ ] "Olá, Mundo!" no Android Studio;
-- [ ] Desenvolvimento por emulador e por dispositivo físico;
+- [ ] Comparação entre desenvolvimento por emulador e por dispositivo físico;
 - [x] Apresentação à plataforma MIT App Inventor;
 - [ ] Desenvolvimento de aplicativos simples no MIT App Inventor:
-  - [ ] Olá, Mundo!;
+  - [x] Olá, Mundo!;
   - [ ] Slider para tamanho de fonte;
   - [ ] Aplicativo de Contador de Cliques;
   - [ ] Aplicativo de Câmera;
@@ -31,16 +31,15 @@
   - [ ] Eventos de clique
     - [ ] onClick;
     - [ ] setOnClickListener;
-    - [ ] Códigos para tratar eventos de clique;
+  - [ ] Uso de Toast e Logcat para exibir mensagens;
   - [ ] Predileção por hierarquias rasas de Views e ViewGroups;
-  - [ ] Navegação entre Activities;
-- [ ] Uso de Toast e Logcat para exibir mensagens;
 - [ ] Exibição dos principais componentes de uma aplicação Android (Views);
 - [ ] Principais atributos de uma View;
   - [ ] width e height:
     - [ ] wrap_content e match_parent;
   - [ ] textColor, textSize, textStyle;
-  - [ ] "Box Model" - padding, margin;
+  - [ ] Pixel (px), Density Pixel (dp), Scale-independent Pixels (sp);
+  - [ ] "Box Model": padding, margin;
   - [ ] etc.
 - [ ] Exemplo de um contador de cliques utilizando Java;
 - [ ] Boas práticas na utilização de recursos;
@@ -48,8 +47,17 @@
   - [ ] Colors
   - [ ] Styles;
   - [ ] Etc.
-- [ ] 
+- [ ] Navegação entre Activities;
+- [ ] Tópicos em Constraint Layout:
+  - [ ] Bias;
+  - [ ] Chains;
+- [ ] ListView e RecyclerView;
 
 ...
 
 - [ ] Interoperabilidade entre Java e Kotlin;
+
+## Avaliações
+
+
+
