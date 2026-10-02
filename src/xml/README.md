@@ -177,3 +177,7 @@ A seguir, há um exemplo de como os prefixos android: e `app:` são utilizados e
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
+
+#### XML e Microsoft Word (.docx)
+
+Curiosidade: um arquivo `.docx`, usado pelo Microsoft Word, é um pacote no formato ZIP que reúne vários arquivos e pastas. Entre eles, há arquivos XML que descrevem o conteúdo e a formatação do documento. Você pode explorar essa estrutura alterando a extensão de uma cópia do arquivo de `.docx` para `.zip` e descompactando-a. Você pode encontrar exemplos de arquivos XML dentro de um documento Word em `exemplos/02-word`.
