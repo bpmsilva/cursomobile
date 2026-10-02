@@ -1,0 +1,27 @@
+<pessoas>
+    <pessoa>
+        <nome>João</nome>
+        <sobrenome>Silva</sobrenome>
+        <idade>30</idade>
+        <email>joaosilva@example.com</email>
+        <endereco>Rua A, 123, 12345-678, Cidade X, Estado Y</endereco>
+        <pertences>
+            <pertence>Celular</pertence>
+            <pertence>Computador</pertence>
+            <pertence>Moto</pertence>
+        </pertences>
+    </pessoa>
+    <pessoa>
+        <nome>Maria</nome>
+        <sobrenome>de Jesus</sobrenome>
+        <idade>25</idade>
+        <email>mariadejesus@example.com</email>
+        <pertences>
+            <pertence>Celular</pertence>
+            <pertence>Tablet</pertence>
+            <pertence>Moto</pertence>
+            <pertence>Carro</pertence>
+            <pertence>Casa</pertence>
+        </pertences>
+    </pessoa>
+</pessoas>
