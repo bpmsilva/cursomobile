@@ -21,5 +21,9 @@ class Main {
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
         System.out.println("Altura: " + altura);
+
+        // Constantes
+        final double PI = 3.14159; // Constante, não pode ser alterada após a atribuição
+        System.out.println("Valor de PI: " + PI);
     }
 }
