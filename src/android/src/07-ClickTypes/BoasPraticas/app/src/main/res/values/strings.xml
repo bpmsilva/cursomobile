@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BoasPraticas</string>
+    <string name="deleteText">Apagar</string>
+    <string name="takePictureText">Fotografar</string>
+    <string name="sendText">Enviar</string>
+    <string name="footerText">Texto de Rodapé</string>
+    <string name="usernameText">Nome de Usuário</string>
+    <string name="userPhotoImageView">User photo</string>
+</resources>
