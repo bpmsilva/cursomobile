@@ -2,62 +2,81 @@
 
 - [x] Criar GitHub da Disciplina de Programação para Dispositivos Móveis;
 - [x] Introdução à disciplina;
-- [ ] Por que desenvolvimento Mobile?;
-- [ ] Mostrar e testar o Android Studio;
-- [ ] "Olá, Mundo!" no Android Studio;
-- [ ] Comparação entre desenvolvimento por emulador e por dispositivo físico;
+- [x] Por que desenvolvimento Mobile?;
+- [x] Mostrar e testar o Android Studio;
+- [x] "Olá, Mundo!" no Android Studio;
+- [x] Comparação entre desenvolvimento por emulador e por dispositivo físico;
 - [x] Apresentação à plataforma MIT App Inventor;
 - [ ] Desenvolvimento de aplicativos simples no MIT App Inventor:
   - [x] Olá, Mundo!;
-  - [ ] Slider para tamanho de fonte;
-  - [ ] Aplicativo de Contador de Cliques;
+  - [x] Slider para tamanho de fonte;
+  - [x] Aplicativo de Contador de Cliques;
   - [ ] Aplicativo de Câmera;
-  - [ ] TODO: acrescentar mais exemplos simples;
+  - [ ] Aplicativo com Acelerômetro;
+  - [ ] Desafio: Banco de Dados para controle de gastos pessoais;
+  - [ ] Cálculo de IMC, "pedra, papel, tesoura" e calculadora, etc.;
+- [ ] Introdução às plataformas:
+  - [x] "Android XML/Layout Lab" (bernardopeters.com.br/aulas/android-xml);
+  - [ ] Kodular (kodular.io);
+- [x] Passo a passo para acesso aos Layouts no Android Studio;
+- [ ] Extensible Markup Language (XML);
+  - [x] Estrutura e sintaxe de um arquivo XML;
+  - [x] Elementos, atributos e valores;
+  - [x] Hierarquia de elementos;
+  - [ ] Atributos de layout;
+  - [ ] Atributos de estilo;
+  - [ ] Atributos de comportamento;
+  - [ ] XML e Android Studio;
+    - [ ] Hierarquia de Views e ViewGroups;
+    - [x] Exemplo de um Layout simples;
+    - [x] Exemplo de um Layout mais complexo;
+    - [ ] Desafio: replicar um Layout de um App;
 - [ ] Revisão dos conceitos básicos de Java;
-  - [ ] Sintaxe;
+  - [x] Sintaxe;
   - [ ] Variáveis e Constantes;
   - [ ] Tipos de Dados;
   - [ ] Operadores;
+    - [ ] Foco em operador ternário;
   - [ ] Estruturas de Controle;
   - [ ] Métodos;
   - [ ] Programação Orientada a Objetos;
     - [ ] Classes, Objetos, Atributos;
     - [ ] Herança;
     - [ ] Interfaces;
-- [ ] "Olá, Mundo!" com Java no Android Studio;
+- [x] "Olá, Mundo!" com Java no Android Studio;
 - [ ] Introdução ao Constraint Layout;
-  - [ ] Elemento botão
-  - [ ] IDs
-  - [ ] Eventos de clique
-    - [ ] onClick;
-    - [ ] setOnClickListener;
-  - [ ] Uso de Toast e Logcat para exibir mensagens;
+  - [x] Elemento botão
+  - [x] IDs
+  - [x] Eventos de clique
+    - [x] onClick;
+    - [x] setOnClickListener;
+  - [x] Uso de Toast e Logcat para exibir mensagens;
   - [ ] Predileção por hierarquias rasas de Views e ViewGroups;
 - [ ] Exibição dos principais componentes de uma aplicação Android (Views);
 - [ ] Principais atributos de uma View;
-  - [ ] width e height:
-    - [ ] wrap_content e match_parent;
+  - [x] width e height:
+    - [x] wrap_content e match_parent;
   - [ ] textColor, textSize, textStyle;
-  - [ ] Pixel (px), Density Pixel (dp), Scale-independent Pixels (sp);
-  - [ ] "Box Model": padding, margin;
-  - [ ] etc.
+  - [x] Pixel (px), Density Pixel (dp), Scale-independent Pixels (sp);
+  - [x] "Box Model": padding, margin;
 - [ ] Exemplo de um contador de cliques utilizando Java;
+- [ ] Slider para tamanho de fonte utilizando Java;
 - [ ] Boas práticas na utilização de recursos;
-  - [ ] Strings
-  - [ ] Colors
+  - [x] Strings;
+  - [x] Colors;
   - [ ] Styles;
-  - [ ] Etc.
+  - [ ] Tradução de Strings;
 - [ ] Navegação entre Activities;
 - [ ] Tópicos em Constraint Layout:
   - [ ] Bias;
   - [ ] Chains;
 - [ ] ListView e RecyclerView;
-
-...
-
-- [ ] Interoperabilidade entre Java e Kotlin;
+- [ ] Arquivo Manifest.xml;'
+- [ ] Introdução à linguagem Kotlin;
+  - [ ] Interoperabilidade entre Java e Kotlin;
+  - [ ] Exemplo de um contador de cliques utilizando Kotlin;
+- [ ] Android Manifest;
 
 ## Avaliações
-
 
 
