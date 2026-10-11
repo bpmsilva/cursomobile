@@ -1,2 +1,5 @@
 *.class
 scratches/
+
+# Para binários do Kotlin
+/src/kotlin/**/*.jar
