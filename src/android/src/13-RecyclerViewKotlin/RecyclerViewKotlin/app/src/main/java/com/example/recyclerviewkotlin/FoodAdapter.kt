@@ -7,7 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class FoodAdapter(private val foodList: List<FoodItemViewHolder>) :
+class FoodAdapter(private val foodList: List<FoodItem>) :
     RecyclerView.Adapter<FoodAdapter.MyViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {

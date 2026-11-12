@@ -1,6 +1,6 @@
 package com.example.recyclerviewkotlin
 
-class FoodItemViewHolder {
+class FoodItem {
     var foodImageView: Int? = null
     var foodNameTextView: String? = null
     var caloriesTextView: String? = null

@@ -30,17 +30,17 @@ class MainActivity : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.foodRecyclerView);
 
         val foodItems = listOf(
-            FoodItemViewHolder(R.drawable.ic_launcher_foreground, "Pizza", "300", "1 pedaço"),
-            FoodItemViewHolder(R.drawable.ic_launcher_foreground, "Hamburger", "500", "1 unidade"),
-            FoodItemViewHolder(R.drawable.ic_launcher_foreground, "Salada", "150", "1 tigela"),
-            FoodItemViewHolder(R.drawable.ic_launcher_foreground, "Macarrão", "400", "1 prato"),
-            FoodItemViewHolder(R.drawable.ic_launcher_foreground, "Sorvete", "200", "1 bola"),
-            FoodItemViewHolder(R.drawable.ic_launcher_foreground, "Frango", "250", "1 pedaço"),
-            FoodItemViewHolder(R.drawable.ic_launcher_foreground, "Peixe", "350", "1 filé"),
-            FoodItemViewHolder(R.drawable.ic_launcher_foreground, "Arroz", "180", "1 xícara"),
-            FoodItemViewHolder(R.drawable.ic_launcher_foreground, "Feijão", "220", "1 concha"),
-            FoodItemViewHolder(R.drawable.ic_launcher_foreground, "Batata Frita", "400", "1 porção"),
-            FoodItemViewHolder(R.drawable.ic_launcher_foreground, "Coca-Cola", "150", "1 lata"),
+            FoodItem(R.drawable.ic_launcher_foreground, "Pizza", "300", "1 pedaço"),
+            FoodItem(R.drawable.ic_launcher_foreground, "Hamburger", "500", "1 unidade"),
+            FoodItem(R.drawable.ic_launcher_foreground, "Salada", "150", "1 tigela"),
+            FoodItem(R.drawable.ic_launcher_foreground, "Macarrão", "400", "1 prato"),
+            FoodItem(R.drawable.ic_launcher_foreground, "Sorvete", "200", "1 bola"),
+            FoodItem(R.drawable.ic_launcher_foreground, "Frango", "250", "1 pedaço"),
+            FoodItem(R.drawable.ic_launcher_foreground, "Peixe", "350", "1 filé"),
+            FoodItem(R.drawable.ic_launcher_foreground, "Arroz", "180", "1 xícara"),
+            FoodItem(R.drawable.ic_launcher_foreground, "Feijão", "220", "1 concha"),
+            FoodItem(R.drawable.ic_launcher_foreground, "Batata Frita", "400", "1 porção"),
+            FoodItem(R.drawable.ic_launcher_foreground, "Coca-Cola", "150", "1 lata"),
         )
 
         // Set LayoutManager
