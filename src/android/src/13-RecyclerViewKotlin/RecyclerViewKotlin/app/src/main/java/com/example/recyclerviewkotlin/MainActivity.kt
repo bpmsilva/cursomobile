@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         // Dentre os elementos para utilizar um RecyclerView, temos:
         // 1. Um layout para os itens da lista (food_layout.xml)
-        // 2. Uma classe de dados para fornecer os dados para o RecyclerView (FoodItem.kt)
+        // 2. Uma classe de dados para fornecer os dados para o RecyclerView (Food.kt)
         // 3. Um ViewHolder para gerenciar os itens da lista (FoodViewHolder.kt)
         // 4. Um Adapter para vincular os dados ao RecyclerView
         // Observação: também foi necessário alterar coreKtx de "1.19.1" par "1.17.0" em gradle/libs.versions.toml
@@ -30,17 +30,17 @@ class MainActivity : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.foodRecyclerView);
 
         val foodItems = listOf(
-            FoodItem(R.drawable.ic_launcher_foreground, "Pizza", "300", "1 pedaço"),
-            FoodItem(R.drawable.ic_launcher_foreground, "Hamburger", "500", "1 unidade"),
-            FoodItem(R.drawable.ic_launcher_foreground, "Salada", "150", "1 tigela"),
-            FoodItem(R.drawable.ic_launcher_foreground, "Macarrão", "400", "1 prato"),
-            FoodItem(R.drawable.ic_launcher_foreground, "Sorvete", "200", "1 bola"),
-            FoodItem(R.drawable.ic_launcher_foreground, "Frango", "250", "1 pedaço"),
-            FoodItem(R.drawable.ic_launcher_foreground, "Peixe", "350", "1 filé"),
-            FoodItem(R.drawable.ic_launcher_foreground, "Arroz", "180", "1 xícara"),
-            FoodItem(R.drawable.ic_launcher_foreground, "Feijão", "220", "1 concha"),
-            FoodItem(R.drawable.ic_launcher_foreground, "Batata Frita", "400", "1 porção"),
-            FoodItem(R.drawable.ic_launcher_foreground, "Coca-Cola", "150", "1 lata"),
+            Food(R.drawable.ic_launcher_foreground, "Pizza", "300", "1 pedaço"),
+            Food(R.drawable.ic_launcher_foreground, "Hamburger", "500", "1 unidade"),
+            Food(R.drawable.ic_launcher_foreground, "Salada", "150", "1 tigela"),
+            Food(R.drawable.ic_launcher_foreground, "Macarrão", "400", "1 prato"),
+            Food(R.drawable.ic_launcher_foreground, "Sorvete", "200", "1 bola"),
+            Food(R.drawable.ic_launcher_foreground, "Frango", "250", "1 pedaço"),
+            Food(R.drawable.ic_launcher_foreground, "Peixe", "350", "1 filé"),
+            Food(R.drawable.ic_launcher_foreground, "Arroz", "180", "1 xícara"),
+            Food(R.drawable.ic_launcher_foreground, "Feijão", "220", "1 concha"),
+            Food(R.drawable.ic_launcher_foreground, "Batata Frita", "400", "1 porção"),
+            Food(R.drawable.ic_launcher_foreground, "Coca-Cola", "150", "1 lata"),
         )
 
         // Set LayoutManager
